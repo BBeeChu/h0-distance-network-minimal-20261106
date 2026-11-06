@@ -1,0 +1,27 @@
+{
+  "model": "Planck 2018 base spatially flat six-parameter LCDM, CMB temperature/polarization/lensing",
+  "assumed_independent": true,
+  "source": "https://arxiv.org/abs/1807.06209",
+  "comparisons": [
+    {
+      "name": "Computed default (formal)",
+      "H0": 112.40719051231865,
+      "sigma": 2.9470282959146203,
+      "CMB_H0": 67.4,
+      "CMB_sigma": 0.5,
+      "delta": 45.007190512318644,
+      "gaussian_difference_sigma": 15.0568877962517,
+      "interpretation": "Descriptive arithmetic only: local model rejected"
+    },
+    {
+      "name": "Instruction reference",
+      "H0": 73.5,
+      "sigma": 0.81,
+      "CMB_H0": 67.4,
+      "CMB_sigma": 0.5,
+      "delta": 6.099999999999994,
+      "gaussian_difference_sigma": 6.408284286269925,
+      "interpretation": "Instruction reference only; not reproduced"
+    }
+  ]
+}

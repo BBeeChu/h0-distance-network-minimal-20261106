@@ -1,0 +1,97 @@
+{
+  "default": {
+    "variant": "Default",
+    "H0": 112.40719051231865,
+    "sigma_H0": 2.9470282959146203,
+    "lower68": 109.49845857158705,
+    "upper68": 115.39319040379029,
+    "precision_percent": 2.6217435757293983,
+    "h": 10.253970466304873,
+    "sigma_h": 0.0569304383952289,
+    "M_Ia": -19.494980546286197,
+    "sigma_M_Ia": 0.04902744959674121,
+    "chi2": 171.53026485521139,
+    "dof": 17,
+    "reduced_chi2": 10.090015579718317,
+    "p_value": 1.3948841860111341e-27,
+    "n": 29,
+    "rank": 12,
+    "n_primary": 11,
+    "n_calibrators": 7,
+    "n_flow": 5,
+    "law": "cosmography",
+    "pv_km_s": 250,
+    "intrinsic_scatter_mag": 0,
+    "covariance": "full"
+  },
+  "stated_reference": {
+    "H0": 73.5,
+    "sigma_H0": 0.81,
+    "precision_percent": 1.1020408163265307,
+    "origin": "INSTRUCTIONS.md; not fitted or reproduced"
+  },
+  "CMB": {
+    "H0": 67.4,
+    "sigma_H0": 0.5,
+    "model": "Planck 2018 base LCDM"
+  },
+  "interpretation": "Numerically identifiable subset fit, rejected by fit quality; does not establish requested robust full-network consensus.",
+  "full_consensus_established": false,
+  "total_systematics_established": false,
+  "public_release": false,
+  "scatter_repair": {
+    "maximum_likelihood": {
+      "H0": 115.32371858244989,
+      "scatter_calibrator_mag": 0.40227093606419034,
+      "scatter_flow_mag": 0.14732074896010347,
+      "conditional_sigma_H0": 9.346441217799478,
+      "chi2": 12.51583406678007,
+      "nominal_residual_dof": 17,
+      "caution": "Scatter is estimated; conditional errors omit its estimation uncertainty. Chi-square p values with fitted variance components are not calibrated.",
+      "profile_68_interval": [
+        106.15681561398141,
+        125.33943145984308
+      ],
+      "profile_interval_interpretation": "Likelihood-ratio delta(-2 log L)=1, asymptotic 68.27%; small-sample coverage not guaranteed.",
+      "profile_half_width_percent": 8.316856272782776
+    },
+    "restricted_maximum_likelihood": {
+      "H0": 115.40271738292084,
+      "scatter_calibrator_mag": 0.4450252421449643,
+      "scatter_flow_mag": 0.1685675801967226,
+      "conditional_sigma_H0": 10.290582381549424,
+      "chi2": 10.220677214729637,
+      "nominal_residual_dof": 17,
+      "caution": "Scatter is estimated; conditional errors omit its estimation uncertainty. Chi-square p values with fitted variance components are not calibrated."
+    },
+    "precision_limits": {
+      "0": {
+        "known_absolute_magnitude_sigma_h": 0.0238667185252719,
+        "minimum_percent": 1.0991030058995184,
+        "assumption": "Exactly known SN absolute magnitude, zero intrinsic scatter; supplied five flow SNe only. This optimistic lower bound is conditional on this branch, not on future measurements."
+      },
+      "250": {
+        "known_absolute_magnitude_sigma_h": 0.02893758804586091,
+        "minimum_percent": 1.3326251772320405,
+        "assumption": "Exactly known SN absolute magnitude, zero intrinsic scatter; supplied five flow SNe only. This optimistic lower bound is conditional on this branch, not on future measurements."
+      }
+    },
+    "common_zero_point_sensitivity": {
+      "assumption": "Hypothetical independent shared primary offset. Magnitude not identifiable from these data; scenarios are not a completed systematic budget.",
+      "analytic_variance_increment_verified": true
+    },
+    "missing_inputs": [
+      "MW parallaxes",
+      "SMC detached-eclipsing-binary measurements",
+      "Miras",
+      "JAGB",
+      "SNe II",
+      "FP",
+      "TF",
+      "Independent primary-to-SBF calibration",
+      "SN standardization and full systematic covariance"
+    ],
+    "full_consensus_established": false,
+    "reason": "Fitted extra scatter broadens precision; it cannot create absent observations, identify common scale systematics, or restore independent SBF calibration."
+  }
+}

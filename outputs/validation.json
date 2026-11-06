@@ -1,0 +1,79 @@
+{
+  "normal_equation_max_parameter_delta": 2.8421709430404007e-13,
+  "two_stage_h": 10.253970466304718,
+  "two_stage_h_delta": -1.545430450278218e-13,
+  "two_stage_sigma_h": 0.056930438395228884,
+  "two_stage_sigma_delta": -1.3877787807814457e-17,
+  "latent_nuisance_max_parameter_delta": 6.750155989720952e-14,
+  "monte_carlo_n": 50000,
+  "seed": 20261106,
+  "mc_sigma_h": 0.056814260780364695,
+  "analytic_sigma_h": 0.0569304383952289,
+  "mc_ratio": 0.9979593058100543,
+  "full_design_rank": 12,
+  "n_parameters": 12,
+  "whitened_condition": 15.693685449941219,
+  "covariance_min_eigenvalue": 0.0016,
+  "sbf_only_rank": 3,
+  "sbf_only_n_parameters": 4,
+  "sbf_null_vector": [
+    1,
+    1,
+    -1,
+    -1
+  ],
+  "sbf_null_residual": 0.0,
+  "sbf_inclusion_delta_H0": 8.043343768804334e-12,
+  "sbf_inclusion_delta_sigma": 2.113864638886298e-13,
+  "variance_h_components": {
+    "independent": 0.002091715037983147,
+    "anchor:N4258": 0.000528132306185483,
+    "anchor:LMC": 4.5753765641825975e-05,
+    "method:Cepheid:N4258": 0.0003268086103194468,
+    "method:TRGB:N4258": 0.00017717483692769866,
+    "method:Cepheid:LMC": 7.14902588153531e-05
+  },
+  "variance_h_fractions": {
+    "independent": 0.645376968078339,
+    "anchor:N4258": 0.16294974235058982,
+    "anchor:LMC": 0.014116849576489222,
+    "method:Cepheid:N4258": 0.10083340523918884,
+    "method:TRGB:N4258": 0.05466545729212928,
+    "method:Cepheid:LMC": 0.022057577463264415
+  },
+  "independent_variance_h_by_type": {
+    "primary": 0.000816858231095036,
+    "SN calibrator": 0.000437472804976158,
+    "SN flow": 0.0008373840019119525,
+    "SBF calibrator": 4.583094803486788e-37,
+    "SBF flow": 1.900126842965062e-35
+  },
+  "fixed_instruction_reference_profile_chi2": 434.1186365438909,
+  "calibration_magnitudes_range": [
+    -20.405330145045,
+    -18.970962913010275
+  ],
+  "unit_sign_checks": [
+    "primary mu values treated as already absolute: no anchor central modulus added again",
+    "m_cal=mu_host+M_Ia",
+    "m_flow-F(z)=M_Ia-5log10H0",
+    "distance in Mpc; c in km/s; H0 in km/s/Mpc",
+    "redshift sigma_z=250/c, no shared-flow covariance supplied"
+  ],
+  "assumptions": [
+    "all mB interpreted as standardized magnitudes; not specified in input",
+    "err_meas interpreted as independent and additional method/anchor terms added once",
+    "method-anchor offsets independent, shared within pair; anchor offset shared across methods",
+    "baseline expansion q0=-0.55, j0=1; velocities independent",
+    "no unlisted group memberships imposed"
+  ],
+  "reference_disagreement_checks": [
+    "Cholesky GLS matches independent normal-equation solver",
+    "analytic primary-only calibration plus independent flow intercept matches joint fit",
+    "latent calibration-offset prior formulation matches covariance formulation",
+    "exact LCDM integration compared to cubic cosmography",
+    "raw calibration magnitudes and Hubble diagram inspected without alteration"
+  ],
+  "fit_rejected": true,
+  "diagnostic_birge_scaled_sigma_H0": 9.361171983176755
+}
