@@ -38,7 +38,7 @@
   "interpretation": "Numerically identifiable subset fit, rejected by fit quality; does not establish requested robust full-network consensus.",
   "full_consensus_established": false,
   "total_systematics_established": false,
-  "public_release": false,
+  "public_release": true,
   "scatter_repair": {
     "maximum_likelihood": {
       "H0": 115.32371858244989,
@@ -93,5 +93,6 @@
     ],
     "full_consensus_established": false,
     "reason": "Fitted extra scatter broadens precision; it cannot create absent observations, identify common scale systematics, or restore independent SBF calibration."
-  }
+  },
+  "public_release_url": "https://github.com/BBeeChu/h0-distance-network-minimal-20261106/releases/tag/v1.0.0"
 }

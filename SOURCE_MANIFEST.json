@@ -6,7 +6,7 @@
   "outputs/calibrator_diagnostics.csv": "a4719f3de70978735aa0a66ca4e6437833ef999204588fd0a349a317b0469939",
   "outputs/cmb_comparison.json": "a17fea97c95e0ae2c3c8e224cdee678da85847601c6e0d350b4982f75d41cddd",
   "outputs/consensus_repair.json": "b795797cffae604f1955dfb8ec93244a0e1938506ee5293eea567188acfbe5d0",
-  "outputs/headline_results.json": "5977f5f204aaaa01215f0fc3ea14435a6fdc468f1bcea3a0313d7589636669bb",
+  "outputs/headline_results.json": "5ce65ce325a3ef9f0a8bbf67ce9f8ab8d1656f6ab9b62db91f6066a4c25db084",
   "outputs/leave_one_out.csv": "f6f119ecaa57b7740fe9d8e859cb29c275476024c6767de4ba5333416212de02",
   "outputs/network_matrices.npz": "68d5b802c3105d664442b96011dede4e096c45125e29c0542e29f65733b05d6d",
   "outputs/residuals.csv": "6866161e07f98b5351b9d065f5fbdb3c5bae115b186ae6d5be509c9dea848e69",
@@ -20,6 +20,6 @@
   "report/images/influence.png": "81232c526c8866558aca5874f39579867fa7c242b29ec08dc8e4f8eb8e9df5d2",
   "report/images/network.png": "393675e3d65533dc4eecff7baafae8ef4687b007d0db59e1d38db90bf8656a76",
   "report/images/residuals.png": "426a669b105c52d2654ea4886235218c9d672ca14907d23e99ef055862789b4f",
-  "report/report.md": "d9a5e15504b832a25c370e5324c9e76471ada1ecffb4e9397ddbdedd27f0d610",
+  "report/report.md": "6a8eb38218ff0b0f07366ac006a1f4a1a03512865e2eeb445b3a839d91e8a444",
   "requirements.txt": "ae1a13a5d58e781febd36206942196905615dfa9467089b653dfb65e7dcc1090"
 }
